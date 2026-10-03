@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'inter-bold';
+    src: url('assets/fonts/static/Inter-Bold.ttf');
+}
+@font-face {
+    font-family: 'inter-regular';
+    src: url('assets/fonts/static/Inter-Regular.ttf');
+}
+@font-face {
+    font-family: 'inter-semibold';
+    src: url('assets/fonts/static/Inter-SemiBold.ttf');
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.container{
+    border: 1px solid hsl(0, 0%, 12%);
+    background-color: hsl(0, 0%, 12%);
+    height: 578px;
+    width: 355px;
+    padding: 40px;
+    border-radius: 12px;
+    text-align:center;
+}
+img{
+    width:89px;
+    height: 89px;
+    border-radius: 50%;
+    margin-top:10px;
+}
+h1{
+    font-family:"inter-bold";
+    font-size:21px;
+    color:white;
+    margin-top:25px;
+}
+.first{
+    font-family:"inter-bold";
+    font-size : 12px;
+    color:hsl(75, 94%, 57%);
+    margin-top:-4px;
+}
+.second{
+    font-family: "inter-regular";
+    font-size:13px;
+    color:white;
+    margin-top:35px;
+}
+.container2{
+    margin-top:35px;
+}
+.link{
+    font-family:"inter-bold";
+    font-size:14px;
+    border:1px solid hsl(0, 0%, 20%);
+    height: 43px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:23px;
+    background-color:hsl(0, 0%, 20%);
+    border-radius:8px;
+}
+.link:hover{
+    background-color:hsl(75, 94%, 57%);
+    cursor:pointer;
+
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+.link:hover a{
+    color:black;
+}
+
+
